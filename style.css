@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Poppins", serif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* nav starts */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1455px;
+    margin: 50px auto 0px;
+    padding: 20px;
+}
+.navbar h2{
+    color: #3A3A3A;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+nav ul li{
+    list-style: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+
+}
+nav ul .icon{
+    font-size: 1.3rem; 
+}
+ 
+/* section banner */
+.banner{
+    max-width: 1455px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+}
+.banner-img{
+background-image: url("./images/Circle\ design.svg");
+height: 55%;
+width: 35%;
+padding:10px;
+background-repeat: no-repeat; 
+background-size: contain;
+/* position: inside; */
+}
+.banner-img img{
+    width: 100%;
+}
+.banner h1{
+    font-weight: bold;
+    font-size: 3rem;
+    color: rgba(58, 58, 58, 1);
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+.banner p{
+    font-weight: 600;
+    font-style: 1.025rem;
+    color: rgba(58, 58, 58, 1);
+    margin-bottom: 16px;
+}
+.prebook{
+    background-color: rgba(224, 44, 109, 1);
+    padding: 10px 18px;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border: none;
+}
+.fa-solid{
+    padding-left: 8px;
+}
+
+@media screen and (max-width: 576px) {
+    .navbar,.navbar ul{
+        flex-direction: column;
+        justify-items: center;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        gap: 50px;
+        
+    }
+    .banner-img{
+        width: 95%;
+    }
+}
