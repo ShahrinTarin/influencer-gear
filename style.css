@@ -96,8 +96,11 @@ nav ul .icon {
     font-weight: bold;
     font-size: 0.9rem;
     border: none;
+    cursor: pointer;
 }
-
+.prebook:hover{
+    background-color:rgba(94, 99, 102, 1) ;
+ }
 .fa-solid {
     padding-left: 8px;
 }
@@ -188,6 +191,10 @@ nav ul .icon {
     font-weight: bold;
     font-size: 0.9rem;
     margin-bottom: 100px;
+    cursor: pointer;
+ }
+ .see:hover{
+    color:rgba(94, 99, 102, 1) ;
  }
 @media screen and (max-width: 576px) {
     .navbar {
