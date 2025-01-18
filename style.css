@@ -89,10 +89,37 @@ background-size: contain;
 }
 
 @media screen and (max-width: 576px) {
-    .navbar,.navbar ul{
+    .navbar{
         flex-direction: column;
         justify-items: center;
+        gap: 18px;
     }
+    .navbar ul{
+        gap: 20px;
+        padding-right: 17px;
+        padding-left: 17px;
+    justify-items: center;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        gap: 50px;
+        
+    }
+    .banner{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .banner-img{
+        width: 95%;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 982px){
+    .navbar{
+        flex-direction: column;
+        justify-items: center;
+        gap: 18px;
+    }
+  
     .banner{
         flex-direction: column-reverse;
         gap: 50px;
@@ -102,3 +129,4 @@ background-size: contain;
         width: 95%;
     }
 }
+
