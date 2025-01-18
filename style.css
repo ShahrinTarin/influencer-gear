@@ -155,10 +155,10 @@ nav ul .icon {
     padding: 10px;
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
 }
-.he img{
+.card .he img{
     width: 5%;
 }
-.card .camera img{
+.card img{
     width: 100%;
 }
 .card h2 {
@@ -263,7 +263,7 @@ nav ul .icon {
 }
 footer{
     background-color: rgb(11, 0, 36);
-    max-width: 1920px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .footer{
@@ -343,6 +343,12 @@ footer{
 
 }
 
+
+@media screen and (min-width: 580px) and (max-width: 675px){
+    footer{
+        max-width: 1920px;
+    }
+}
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .navbar {
         flex-direction: column;
