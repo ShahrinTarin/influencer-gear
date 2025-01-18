@@ -246,6 +246,7 @@ nav ul .icon {
     color: white;
     font-weight: bold;
     font-size: 0.9rem;
+    cursor: pointer;
 }
 .place button:hover{
     background-color: rgba(94, 99, 102, 1);
